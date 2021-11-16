@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -x
+
 # depgrapher --- tagline of your project
 
 # Copyright (C) 2016 disy
@@ -22,3 +24,91 @@
 # "${DATADIR}" will be replaced with the data directory
 # (i.e. /usr/share/depgrapher) by autotools
 # Use depgrapher_DATA in Makefile.am to select files to install.
+
+# first extract the script filename
+PROG="${0}"
+
+function run () {
+    while test ! $# -eq 0; do
+        while getopts -- hl:-: arg "$@"; do
+            case $arg in
+                h ) ARG_HELP=true ;;
+                f ) ARG_GREP="$OPTARG" ;;
+                s ) ARG_SED="$OPTARG" ;;
+                - ) LONG_OPTARG="${OPTARG#*=}"
+                    case "$OPTARG" in
+                        help    ) ARG_HELP=true;;
+                        sed=?* ) ARG_SED="$LONG_OPTARG" ;;
+                        # FIXME: using the same option twice (either both after the argument or both before it) gives the first, not the second value
+                        sed*   ) ARG_SED="${@:$OPTIND:1}" ; OPTIND=$(($OPTIND + 1));;
+                        grep=?*  ) ARG_GREP="$LONG_OPTARG" ;;
+                        grep*    ) ARG_GREP="${@:$OPTIND:1}" ; OPTIND=$(($OPTIND + 1));;
+                        '' )      break ;; # "--" terminates argument processing to allow giving options for bootstrap.sh after --
+                        * )       echo "Illegal option --$OPTARG" >&2; exit 2;;
+                    esac;;
+                \? ) exit 2 ;;  # getopts already reported the illegal option
+            esac
+        done
+        shift $((OPTIND-1)) # remove parsed options and args from $@ list
+        # reinitialize OPTIND to allow parsing again
+        OPTIND=1
+        if test x"${ARG_HELP}" = x"true"; then
+            echo "${PROG} [-h | --help] [-s | --sed <SED_EXPRESSION>] [-g | --grep <GREP>] WORKDIR"
+            echo "Examples: "
+            echo "search for all files connected to paths that contain 'settings'"
+            echo "    ${PROG} --grep 'settings'"
+            echo "same, but strip path components:"
+            echo "    ${PROG} --grep 'settings'"
+            echo "search workbook and condition, stripping workbook-conditions/, conditions/, and api-client/"
+            echo "    ${PROG} --grep 'workbook.*conditions|conditions.*workbook' --sed 's,workbook-conditions/,,g;s,workbook/,,g;s,conditions/,,g;s,api-client/,,g'"
+            echo
+            exit 0
+        fi
+        # get the argument
+        if test x"${1}" = x"--"; then
+            if test x"${WORKDIR}" = x""; then
+                echo "Missing WORKDIR." >&2; exit 2
+            else
+                # nothing more to parse. Remove -- from the remaining arguments
+                shift 1
+                break
+            fi
+        fi
+        if test ! x"${1}" = x""; then
+            WORKDIR="${1%/}" # without trailing slash
+        fi
+        # remove the argument, then continue the loop to allow putting
+        # the options after the argument
+        shift 1
+    done
+    if test x"${ARG_GREP}" = x""; then
+        ARG_GREP=".";
+    fi
+    if test x"${ARG_SED}" = x""; then
+        ARG_SED="s,x,x,";
+    fi
+    if test x"${WORKDIR}" = x""; then
+        WORKDIR=".";
+    fi
+    cd ${WORKDIR} || exit 1
+    TMPDIR=$(mktemp -d)
+    rg from\ \' | grep -v '#' | grep -v webpack-entries | grep -v \\.md: | grep -v \\.mdx: | sed s,^src/,, | sed "s/\\.[^.]*:.*from '/ -> /" | sed "s/'.*//g" | sed -E 's,([^ ]+)/([^ ]+) -> \./([^ ]+),\1/\2 -> \1/\3,' | sed -E 's,([^ ]+)/([^ ]+)/([^ ]+) -> \../([^ ]+),\1/\2/\3 -> \1/\4,' | sed -E 's,^(.*) -> (.*)$,\2 -> \1,' | sed 's,^,",' | sed 's,$,",' | sed 's, -> ," -> ",' | sed s,cadenza/,,g  > $TMPDIR/graphbody
+    grep -o '"[^ "]*"$' $TMPDIR/graphbody | sort -u > $TMPDIR/nodes
+    (echo 'digraph {';
+     echo '  rankdir=RL;'
+     echo '  graph [overlap=false splines=true]';
+     echo '  node [shape=none fontsize=21]';
+     cat $TMPDIR/nodes | grep -E "${ARG_GREP}" | sed "${ARG_SED}";
+     echo '  node [fontsize=14]';
+     echo '  edge [color="#aaaaaacc" dir="back"]';
+     cat $TMPDIR/graphbody | grep -E "${ARG_GREP}" | sed "${ARG_SED}" ;
+     echo '}' ) > ${TMPDIR}/graph
+    dot -Tsvg -o/tmp/dependencies.svg ${TMPDIR}/graph
+    cat ${TMPDIR}/graph* ${TMPDIR}/nodes
+    rm ${TMPDIR}/graph* ${TMPDIR}/nodes
+    rmdir ${TMPDIR}
+    inkscape /tmp/dependencies.svg
+
+}
+
+run "$@"
