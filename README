@@ -10,6 +10,14 @@ See ChangeLog or the history for detailed changes.
 
 $ depgrapher [options] [arguments]
 
+## Requirements
+
+- ripgrep
+- graphviz
+- inkscape
+- sed, grep
+- bash
+
 ## Install
 
 $ ./bootstrap.sh && make install
