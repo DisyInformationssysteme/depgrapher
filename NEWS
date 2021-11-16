@@ -1,2 +1,5 @@
+depgrapher 0.0.1
+- initial graph with filtering and name cleaning
+
 depgrapher 0.0.0
 - initial setup
