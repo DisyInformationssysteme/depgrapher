@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-set -x
-
 # depgrapher --- tagline of your project
 
 # Copyright (C) 2016 disy
@@ -34,6 +32,7 @@ function run () {
             case $arg in
                 h ) ARG_HELP=true ;;
                 f ) ARG_GREP="$OPTARG" ;;
+                p ) ARG_PLOT="$OPTARG" ;;
                 s ) ARG_SED="$OPTARG" ;;
                 - ) LONG_OPTARG="${OPTARG#*=}"
                     case "$OPTARG" in
@@ -43,6 +42,8 @@ function run () {
                         sed*   ) ARG_SED="${@:$OPTIND:1}" ; OPTIND=$(($OPTIND + 1));;
                         grep=?*  ) ARG_GREP="$LONG_OPTARG" ;;
                         grep*    ) ARG_GREP="${@:$OPTIND:1}" ; OPTIND=$(($OPTIND + 1));;
+                        plot=?*  ) ARG_PLOT="$LONG_OPTARG" ;;
+                        plot*    ) ARG_PLOT="${@:$OPTIND:1}" ; OPTIND=$(($OPTIND + 1));;
                         '' )      break ;; # "--" terminates argument processing to allow giving options for bootstrap.sh after --
                         * )       echo "Illegal option --$OPTARG" >&2; exit 2;;
                     esac;;
@@ -53,13 +54,15 @@ function run () {
         # reinitialize OPTIND to allow parsing again
         OPTIND=1
         if test x"${ARG_HELP}" = x"true"; then
-            echo "${PROG} [-h | --help] [-s | --sed <SED_EXPRESSION>] [-g | --grep <GREP>] WORKDIR"
+            echo "${PROG} [-h | --help] [-s | --sed <SED_EXPRESSION>] [-g | --grep <GREP>] [-p | --plot dot|sfdp] WORKDIR"
             echo "Examples: "
-            echo "search for all files connected to paths that contain 'settings'"
-            echo "    ${PROG} --grep 'settings'"
-            echo "same, but strip path components:"
-            echo "    ${PROG} --grep 'settings'"
-            echo "search workbook and condition, stripping workbook-conditions/, conditions/, and api-client/"
+            echo "search for all files connected to paths that contain 'date-time-condition'"
+            echo "    ${PROG} --grep 'date-time-condition'"
+            echo "search for all files connected to paths that contain 'import'"
+            echo "    ${PROG} --grep 'import'"
+            echo "same, but strip some path components components:"
+            echo "    ${PROG} --grep 'import' --sed 's,workbook/,,g;s,workbook-panel/,,g;s,import/,,g'" 
+            echo "search for workbook AND condition, stripping workbook-conditions/, conditions/, and api-client/"
             echo "    ${PROG} --grep 'workbook.*conditions|conditions.*workbook' --sed 's,workbook-conditions/,,g;s,workbook/,,g;s,conditions/,,g;s,api-client/,,g'"
             echo
             exit 0
