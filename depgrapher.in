@@ -55,6 +55,7 @@ function run () {
         OPTIND=1
         if test x"${ARG_HELP}" = x"true"; then
             echo "${PROG} [-h | --help] [-s | --sed <SED_EXPRESSION>] [-g | --grep <GREP>] [-p | --plot dot|sfdp] WORKDIR"
+            echo
             echo "Examples: "
             echo "search for all files connected to paths that contain 'date-time-condition'"
             echo "    ${PROG} --grep 'date-time-condition'"
@@ -90,6 +91,9 @@ function run () {
     if test x"${ARG_SED}" = x""; then
         ARG_SED="s,x,x,";
     fi
+    if test x"${ARG_PLOT}" = x""; then
+        ARG_SED="dot";
+    fi
     if test x"${WORKDIR}" = x""; then
         WORKDIR=".";
     fi
@@ -106,7 +110,7 @@ function run () {
      echo '  edge [color="#aaaaaacc" dir="back"]';
      cat $TMPDIR/graphbody | grep -E "${ARG_GREP}" | sed "${ARG_SED}" ;
      echo '}' ) > ${TMPDIR}/graph
-    dot -Tsvg -o/tmp/dependencies.svg ${TMPDIR}/graph
+    ${ARG_PLOT} -Tsvg -o/tmp/dependencies.svg ${TMPDIR}/graph
     cat ${TMPDIR}/graph* ${TMPDIR}/nodes
     rm ${TMPDIR}/graph* ${TMPDIR}/nodes
     rmdir ${TMPDIR}
