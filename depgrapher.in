@@ -63,7 +63,7 @@ function run () {
             echo "    ${PROG} --grep 'import'"
             echo "same, but strip some path components components:"
             echo "    ${PROG} --grep 'import' --sed 's,workbook/,,g;s,workbook-panel/,,g;s,import/,,g'" 
-            echo "search for workbook AND condition, stripping workbook-conditions/, conditions/, and api-client/"
+            echo "search for workbook AND conditions, stripping workbook-conditions/, conditions/, and api-client/"
             echo "    ${PROG} --grep 'workbook.*conditions|conditions.*workbook' --sed 's,workbook-conditions/,,g;s,workbook/,,g;s,conditions/,,g;s,api-client/,,g'"
             echo
             exit 0
