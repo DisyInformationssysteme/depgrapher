@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+set -x
 # depgrapher --- tagline of your project
 
 # Copyright (C) 2016 disy
@@ -92,7 +92,7 @@ function run () {
         ARG_SED="s,x,x,";
     fi
     if test x"${ARG_PLOT}" = x""; then
-        ARG_SED="dot";
+        ARG_PLOT="dot";
     fi
     if test x"${WORKDIR}" = x""; then
         WORKDIR=".";
@@ -111,7 +111,7 @@ function run () {
      cat $TMPDIR/graphbody | grep -E "${ARG_GREP}" | sed "${ARG_SED}" ;
      echo '}' ) > ${TMPDIR}/graph
     ${ARG_PLOT} -Tsvg -o/tmp/dependencies.svg ${TMPDIR}/graph
-    cat ${TMPDIR}/graph* ${TMPDIR}/nodes
+    # cat ${TMPDIR}/graph* ${TMPDIR}/nodes
     rm ${TMPDIR}/graph* ${TMPDIR}/nodes
     rmdir ${TMPDIR}
     inkscape /tmp/dependencies.svg
