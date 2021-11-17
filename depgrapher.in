@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-set -x
-# depgrapher --- tagline of your project
+
+# depgrapher --- Create partial dependency graphs of Cadenza Web
 
 # Copyright (C) 2016 disy
 
