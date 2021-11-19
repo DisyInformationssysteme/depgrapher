@@ -105,15 +105,15 @@ function run () {
      echo '  rankdir=RL;'
      echo '  graph [overlap=false splines=true]';
      echo '  node [shape=none fontsize=21]';
-     cat $TMPDIR/nodes | grep -E "${ARG_GREP}" | sed "${ARG_SED}";
+     cat $TMPDIR/nodes | grep -E -- "${ARG_GREP}" | sed "${ARG_SED}";
      echo '  node [fontsize=14]';
      echo '  edge [color="#aaaaaacc" dir="back"]';
-     cat $TMPDIR/graphbody | grep -E "${ARG_GREP}" | sed "${ARG_SED}" ;
+     cat $TMPDIR/graphbody | grep -E -- "${ARG_GREP}" | sed "${ARG_SED}" ;
      echo '}' ) > ${TMPDIR}/graph
-    ${ARG_PLOT} -Tsvg -o/tmp/dependencies.svg ${TMPDIR}/graph
     cp ${TMPDIR}/graph /tmp/dependencies.dot
-    rm ${TMPDIR}/graph* ${TMPDIR}/nodes
-    rmdir ${TMPDIR}
+    ${ARG_PLOT} -Tsvg -o/tmp/dependencies.svg ${TMPDIR}/graph && \
+    rm ${TMPDIR}/graph* ${TMPDIR}/nodes && \
+    rmdir ${TMPDIR} && \
     inkscape /tmp/dependencies.svg
 
 }
