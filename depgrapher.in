@@ -111,7 +111,7 @@ function run () {
      cat $TMPDIR/graphbody | grep -E "${ARG_GREP}" | sed "${ARG_SED}" ;
      echo '}' ) > ${TMPDIR}/graph
     ${ARG_PLOT} -Tsvg -o/tmp/dependencies.svg ${TMPDIR}/graph
-    # cat ${TMPDIR}/graph* ${TMPDIR}/nodes
+    cp ${TMPDIR}/graph /tmp/dependencies.dot
     rm ${TMPDIR}/graph* ${TMPDIR}/nodes
     rmdir ${TMPDIR}
     inkscape /tmp/dependencies.svg
