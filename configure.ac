@@ -5,6 +5,22 @@ dnl Finally run make to generate the project.
 AC_INIT([depgrapher], [0.0.0], [disy])
 # Check for programs I need for my build
 AC_CANONICAL_TARGET
+
+AC_ARG_VAR([ripgrep], [How to call ripgrep.])
+AC_CHECK_TARGET_TOOL([ripgrep], [rg], [no])
+AS_IF([test "x$ripgrep" = "xno"],
+      [AC_MSG_WARN([cannot find Ripgrep which is required for searching dependencies. Please see the README for required tools.])])
+
+AC_ARG_VAR([graphviz], [How to call graphviz.])
+AC_CHECK_TARGET_TOOL([graphviz], [dot], [no])
+AS_IF([test "x$graphviz" = "xno"],
+      [AC_MSG_WARN([cannot find graphviz dot which is required to create the graph. Please see the README for required tools.])])
+
+AC_ARG_VAR([inkscape], [How to call inkscape.])
+AC_CHECK_TARGET_TOOL([inkscape], [inkscape], [no])
+AS_IF([test "x$inkscape" = "xno"],
+      [AC_MSG_WARN([cannot find inkscape which is required to show the graph. Please see the README for required tools.])])
+
 # Run automake, GNU style, so we need NEWS, ChangeLog and README
 AM_INIT_AUTOMAKE()
 AM_MAINTAINER_MODE([enable])
