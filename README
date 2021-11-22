@@ -32,7 +32,9 @@ search for workbook AND conditions, stripping workbook-conditions/, conditions/,
 - autoconf
 - automake
 
-Install on Debian/Ubuntu: `sudo apt install autoconf automake ripgrep graphviz inkscape`
+Install requirements on Debian/Ubuntu:
+
+    sudo apt install autoconf automake ripgrep graphviz inkscape
 
 ## Install
 
