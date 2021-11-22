@@ -117,8 +117,8 @@ function run () {
      echo '}' ) > ${TMPDIR}/graph
     cp ${TMPDIR}/graph /tmp/dependencies.dot
     ${ARG_PLOT} -Tsvg -o/tmp/dependencies.svg ${TMPDIR}/graph && \
-    # rm ${TMPDIR}/graph* ${TMPDIR}/nodes && \
-    # rmdir ${TMPDIR} && \
+    rm ${TMPDIR}/graph* ${TMPDIR}/nodes && \
+    rmdir ${TMPDIR} && \
     inkscape /tmp/dependencies.svg
 
 }
