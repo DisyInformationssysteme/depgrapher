@@ -10,7 +10,8 @@ See ChangeLog or the history for detailed changes.
 
 $ depgrapher [-h | --help] [-s | --sed <SED_EXPRESSION>] [-g | --grep <GREP>] [-p | --plot dot|sfdp] WORKDIR
 
-Examples:
+Examples (run in `path/to/src`):
+
 search for all files connected to paths that contain 'date-time-condition'
     depgrapher --grep 'date-time-condition'
 search for all files connected to paths that contain 'import'
