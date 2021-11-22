@@ -1,3 +1,6 @@
+depgrapher 0.03
+- support dynamic and unnamed imports
+
 depgrapher 0.0.2
 - better install instructions
 - check for required tools in configure

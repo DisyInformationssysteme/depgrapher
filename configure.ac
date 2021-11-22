@@ -2,7 +2,7 @@ dnl run `autoreconf -i` to generate a configure script.
 dnl Then run ./configure to generate a Makefile.
 dnl Finally run make to generate the project.
 
-AC_INIT([depgrapher], [0.0.2], [disy])
+AC_INIT([depgrapher], [0.0.3], [disy])
 # Check for programs I need for my build
 AC_CANONICAL_TARGET
 
