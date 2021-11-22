@@ -20,6 +20,7 @@ AC_ARG_VAR([inkscape], [How to call inkscape.])
 AC_CHECK_TARGET_TOOL([inkscape], [inkscape], [no])
 AS_IF([test "x$inkscape" = "xno"],
       [AC_MSG_WARN([cannot find inkscape which is required to show the graph. Please see the README for required tools.])])
+AC_SUBST(inkscape, "$inkscape")
 
 # Run automake, GNU style, so we need NEWS, ChangeLog and README
 AM_INIT_AUTOMAKE()
@@ -30,4 +31,5 @@ AC_CONFIG_FILES([Makefile])
 AC_CONFIG_LINKS([AUTHORS.in:AUTHORS.in])
 
 # link the file to preprocess with the configured datapaths
-AC_CONFIG_LINKS([depgrapher.in:depgrapher.in])AC_OUTPUT
+AC_CONFIG_LINKS([depgrapher.in:depgrapher.in])
+AC_OUTPUT
