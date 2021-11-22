@@ -19,7 +19,7 @@ install: install-am ## install to locations defined by ./configure
 uninstall: uninstall-am ## remove the installed files
 
 depgrapher: depgrapher.in ## build the main program
-	cat "$<" | sed "s,"'$${DATADIR}'",$(depgrapherdir),g" | sed "s,"'$${TEMPLATE_FILES}'",$(notdir $(depgrapher_DATA)),g" > "$@"
+	cat "$<" | sed "s,"'$${DATADIR}'",$(depgrapherdir),g" | sed "s,"'$${TEMPLATE_FILES}'",$(notdir $(depgrapher_DATA)),g" | sed "s/inkscape/@inkscape@/g" > "$@"
 	chmod +x "$@"
 .PHONY: help
 help: ## Show this help message.
