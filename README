@@ -33,11 +33,17 @@ Install on Debian/Ubuntu: `sudo apt install ripgrep graphviz inkscape`
 
 ## Install
 
-$ ./bootstrap.sh && make install
+Clone:
 
-To install only for the current user, use
+$ git git@github.com:DisyInformationssysteme/depgrapher.git
 
-$ ./bootstrap.sh --prefix=$HOME/.local && make install
+Install globally:
+
+$ cd depgrapher; ./bootstrap.sh && make install
+
+Install only for the current user:
+
+$ cd depgrapher; ./bootstrap.sh --prefix=$HOME/.local && make install
 
 Also see
 
