@@ -37,7 +37,7 @@ Clone:
 
 $ git git@github.com:DisyInformationssysteme/depgrapher.git
 
-Install globally:
+Install systemwide:
 
 $ cd depgrapher; ./bootstrap.sh && make install
 
