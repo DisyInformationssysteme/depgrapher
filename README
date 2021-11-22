@@ -28,8 +28,10 @@ search for workbook AND conditions, stripping workbook-conditions/, conditions/,
 - inkscape
 - sed, grep
 - bash
+- autoconf
+- automake
 
-Install on Debian/Ubuntu: `sudo apt install ripgrep graphviz inkscape`
+Install on Debian/Ubuntu: `sudo apt install autoconf automake ripgrep graphviz inkscape`
 
 ## Install
 
