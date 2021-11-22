@@ -29,6 +29,8 @@ search for workbook AND conditions, stripping workbook-conditions/, conditions/,
 - sed, grep
 - bash
 
+Install on Debian/Ubuntu: `sudo apt install ripgrep graphviz inkscape`
+
 ## Install
 
 $ ./bootstrap.sh && make install
