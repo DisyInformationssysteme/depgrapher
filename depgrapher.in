@@ -103,6 +103,8 @@ function run () {
     cd ${WORKDIR} || exit 1
     TMPDIR=$(mktemp -d)
     rg from\ \' | grep -v '#' | grep -v webpack-entries | grep -v \\.md: | grep -v \\.mdx: | sed s,^src/,, | sed "s/\\.[^.]*:.*from '/ -> /" | sed "s/'.*//g" | sed -E 's,([^ ]+)/([^ ]+) -> \./([^ ]+),\1/\2 -> \1/\3,' | sed -E 's,([^ ]+)/([^ ]+)/([^ ]+) -> \../([^ ]+),\1/\2/\3 -> \1/\4,' | sed -E 's,^(.*) -> (.*)$,\2 -> \1,' | sed 's,^,",' | sed 's,$,",' | sed 's, -> ," -> ",' | sed s,cadenza/,,g  > $TMPDIR/graphbody
+    rg import\ \'".*;" | grep -v '#' | grep -v webpack-entries | grep -v '~' | grep -v .md: | grep -v .mdx: | sed s,^src/,, | sed "s/\\.[^.]*:.*import '/ -> /" | sed "s/'.*//g" | sed -E 's,([^ ]+)/([^ ]+) -> \./([^ ]+),\1/\2 -> \1/\3,' | sed -E 's,([^ ]+)/([^ ]+)/([^ ]+) -> \../([^ ]+),\1/\2/\3 -> \1/\4,' | sed -E 's,^(.*) -> (.*)$,\2 -> \1,' | sed 's,^,",' | sed 's,$,",' | sed 's, -> ," -> ",' | sed s,cadenza/,,g  >> $TMPDIR/graphbody
+    rg -o "import\\(.*webpackChunkName.*'.*'\\)" | grep -v '#' | grep -v '@param' | grep -v webpack-entries | grep -v '~' | grep -v .md: | grep -v .mdx: | sed s,^src/,, | sed "s/\\.[^.]*:.*import([^']*'/ -> /" | sed "s/'.*//g" | sed -E 's,([^ ]+)/([^ ]+) -> \./([^ ]+),\1/\2 -> \1/\3,' | sed -E 's,([^ ]+)/([^ ]+)/([^ ]+) -> \../([^ ]+),\1/\2/\3 -> \1/\4,' | sed -E 's,^(.*) -> (.*)$,\2 -> \1,' | sed 's,^,",' | sed 's,$,",' | sed 's, -> ," -> ",' | sed s,cadenza/,,g  >> $TMPDIR/graphbody
     grep -o '"[^ "]*"$' $TMPDIR/graphbody | sort -u > $TMPDIR/nodes
     (echo 'digraph {';
      echo '  rankdir=RL;'
@@ -115,8 +117,8 @@ function run () {
      echo '}' ) > ${TMPDIR}/graph
     cp ${TMPDIR}/graph /tmp/dependencies.dot
     ${ARG_PLOT} -Tsvg -o/tmp/dependencies.svg ${TMPDIR}/graph && \
-    rm ${TMPDIR}/graph* ${TMPDIR}/nodes && \
-    rmdir ${TMPDIR} && \
+    # rm ${TMPDIR}/graph* ${TMPDIR}/nodes && \
+    # rmdir ${TMPDIR} && \
     inkscape /tmp/dependencies.svg
 
 }
