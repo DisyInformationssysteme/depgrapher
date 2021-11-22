@@ -50,6 +50,10 @@ Install only for the current user:
 
 $ cd depgrapher; ./bootstrap.sh --prefix=$HOME/.local && make install
 
+To replace inkscape as the viewer, use them as arguments. For example:
+
+./bootstrap.sh inkscape=gimp --prefix=$HOME/.local && make install
+
 Also see
 
 $ make help
