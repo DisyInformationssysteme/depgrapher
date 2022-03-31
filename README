@@ -64,10 +64,7 @@ For details on installing a release, see INSTALL
 
 See AUTHORS
 
-Licensed under GPLv3 or later.
-
-(this is the default of conf. To use a different license, replace
-COPYING and the header in the main code file)
+Licensed under APL2, see COPYING
 
 ## Release Process
 
