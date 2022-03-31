@@ -13,12 +13,16 @@ $ depgrapher [-h | --help] [-s | --sed <SED_EXPRESSION>] [-g | --grep <GREP>] [-
 Examples (run in `path/to/src`):
 
 search for all files connected to paths that contain 'date-time-condition'
+
     depgrapher --grep 'date-time-condition'
 search for all files connected to paths that contain 'import'
+
     depgrapher --grep 'import'
 same, but strip some path components components:
+
     depgrapher --grep 'import' --sed 's,workbook/,,g;s,workbook-panel/,,g;s,import/,,g'
 search for workbook AND conditions, stripping workbook-conditions/, conditions/, and api-client/
+
     depgrapher --grep 'workbook.*conditions|conditions.*workbook' --sed 's,workbook-conditions/,,g;s,workbook/,,g;s,conditions/,,g;s,api-client/,,g'
 
 
