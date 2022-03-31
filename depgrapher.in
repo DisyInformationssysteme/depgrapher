@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# depgrapher --- Create partial dependency graphs of Cadenza Web
+# depgrapher --- Create partial dependency graphs
 
 # Copyright (C) 2021 disy
 
