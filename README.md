@@ -1,4 +1,4 @@
-depgrapher - Create partial dependency graphs of Cadenza Web
+depgrapher - Create partial dependency graphs
 ======================================
 
 Description of depgrapher.
