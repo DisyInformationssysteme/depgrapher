@@ -44,23 +44,23 @@ Install requirements on Debian/Ubuntu:
 
 Clone:
 
-$ git git@github.com:DisyInformationssysteme/depgrapher.git
+    git git@github.com:DisyInformationssysteme/depgrapher.git
 
 Install systemwide:
 
-$ cd depgrapher; ./bootstrap.sh && make install
+    cd depgrapher; ./bootstrap.sh && make install
 
 Install only for the current user:
 
-$ cd depgrapher; ./bootstrap.sh --prefix=$HOME/.local && make install
+    cd depgrapher; ./bootstrap.sh --prefix=$HOME/.local && make install
 
 To replace inkscape as the viewer, use them as arguments. For example:
 
-./bootstrap.sh inkscape=gimp --prefix=$HOME/.local && make install
+    ./bootstrap.sh inkscape=gimp --prefix=$HOME/.local && make install
 
 Also see
 
-$ make help
+    make help
 
 For details on installing a release, see INSTALL
 
