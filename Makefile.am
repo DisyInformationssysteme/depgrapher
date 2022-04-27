@@ -37,7 +37,7 @@ ChangeLog: ## create the ChangeLog from the history
 	@echo Generating $@
 	@echo "For user-visible changes, see the NEWS file" > @abs_top_builddir@/$@
 	@echo >> @abs_top_builddir@/$@
-	@if test -d @abs_top_srcdir@/.git; then cd @abs_top_srcdir@; git log --date-order --date=short | sed -e '/^commit.*$/d' | awk '/^Author/ {sub(/\\$/,""); getline t; print $0 t; next}; 1' | sed -e 's/^Author: //g' | sed -e 's/\(.*\)>Date:   \([0-9]*-[0-9]*-[0-9]*\)/\2  \1>/g' | sed -e 's/^\(.*\) \(\)\t\(.*\)/\3    \1    \2/g' >> @abs_top_builddir@/$@; cd -; fi
+	@if test -d @abs_top_srcdir@/.git; then cd @abs_top_srcdir@; git log --date-order --date=short | sed -e '/^commit.*$$/d' | awk '/^Author/ {sub(/\\$$/,""); getline t; print $0 t; next}; 1' | sed -e 's/^Author: //g' | sed -e 's/\(.*\)>Date:   \([0-9]*-[0-9]*-[0-9]*\)/\2  \1>/g' | sed -e 's/^\(.*\) \(\)\t\(.*\)/\3    \1    \2/g' >> @abs_top_builddir@/$@; cd -; fi
 	@if test -d @abs_top_srcdir@/.hg; then hg -R @abs_top_srcdir@ log --style changelog >> $@; fi
 AUTHORS: AUTHORS.in ## create the AUTHORS file from the history and AUTHORS.in
 	@echo Generating $@
