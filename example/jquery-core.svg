@@ -13,8 +13,8 @@
    sodipodi:docname="jquery-core.svg"
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
    inkscape:export-filename="/home/disy/Dokumente/depgrapher/example/jquery-core.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
+   inkscape:export-xdpi="33.869999"
+   inkscape:export-ydpi="33.869999"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -31,9 +31,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="pt"
      showgrid="false"
-     inkscape:zoom="0.29265371"
-     inkscape:cx="1254.0419"
-     inkscape:cy="369.03684"
+     inkscape:zoom="0.14632685"
+     inkscape:cx="1407.8072"
+     inkscape:cy="560.38928"
      inkscape:window-width="1920"
      inkscape:window-height="1037"
      inkscape:window-x="1920"
@@ -48,15 +48,15 @@
   <g
      id="graph0"
      class="graph"
-     transform="matrix(1.3761522,0,0,1.3761522,-872.96763,2936.9303)"
-     style="opacity:0.86"
+     transform="matrix(2.6621718,0,0,2.6621718,-2469.8702,4750.1926)"
+     style="opacity:1"
      inkscape:export-filename="/home/disy/Dokumente/depgrapher/example/jquery-core.png"
      inkscape:export-xdpi="33.869999"
      inkscape:export-ydpi="33.869999">
     <polygon
        fill="#ffffff"
        stroke="transparent"
-       points="-4,4 -4,-3160 1988,-3160 1988,4 "
+       points="1988,-3160 1988,4 -4,4 -4,-3160 "
        id="polygon2" />
     <!-- core -->
     <g
@@ -103,7 +103,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1253.09,-1672.76 1252.55,-1662.18 1246.38,-1670.79 "
+         points="1252.55,-1662.18 1246.38,-1670.79 1253.09,-1672.76 "
          id="polygon18" />
     </g>
     <!-- core/init -->
@@ -137,7 +137,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1256.15,-1672.78 1254.62,-1662.29 1249.28,-1671.45 "
+         points="1254.62,-1662.29 1249.28,-1671.45 1256.15,-1672.78 "
          id="polygon30" />
     </g>
     <!-- core/isAttached -->
@@ -171,7 +171,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1254.22,-1615.85 1257.83,-1625.82 1261.22,-1615.78 "
+         points="1257.83,-1625.82 1261.22,-1615.78 1254.22,-1615.85 "
          id="polygon42" />
     </g>
     <!-- core/parseHTML -->
@@ -205,7 +205,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1261.18,-1672.16 1257.8,-1662.11 1254.18,-1672.07 "
+         points="1257.8,-1662.11 1254.18,-1672.07 1261.18,-1672.16 "
          id="polygon54" />
     </g>
     <!-- core/parseXML -->
@@ -239,7 +239,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1258.43,-1672.57 1256.02,-1662.26 1251.47,-1671.82 "
+         points="1256.02,-1662.26 1251.47,-1671.82 1258.43,-1672.57 "
          id="polygon66" />
     </g>
     <!-- core/ready -->
@@ -273,7 +273,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1258.71,-1672.31 1256.21,-1662.01 1251.74,-1671.62 "
+         points="1256.21,-1662.01 1251.74,-1671.62 1258.71,-1672.31 "
          id="polygon78" />
     </g>
     <!-- core/readyException -->
@@ -307,7 +307,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1258.75,-1672.61 1256.23,-1662.32 1251.79,-1671.94 "
+         points="1256.23,-1662.32 1251.79,-1671.94 1258.75,-1672.61 "
          id="polygon90" />
     </g>
     <!-- core/ready&#45;no&#45;deferred -->
@@ -341,7 +341,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1260.95,-1672.18 1257.65,-1662.11 1253.95,-1672.04 "
+         points="1257.65,-1662.11 1253.95,-1672.04 1260.95,-1672.18 "
          id="polygon102" />
     </g>
     <!-- wrap -->
@@ -375,7 +375,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1253.24,-1672.78 1252.65,-1662.2 1246.52,-1670.84 "
+         points="1252.65,-1662.2 1246.52,-1670.84 1253.24,-1672.78 "
          id="polygon114" />
     </g>
     <!-- traversing -->
@@ -409,7 +409,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1259.75,-1672.31 1256.89,-1662.11 1252.76,-1671.87 "
+         points="1256.89,-1662.11 1252.76,-1671.87 1259.75,-1672.31 "
          id="polygon126" />
     </g>
     <!-- deferred/exceptionHook -->
@@ -443,7 +443,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1258.34,-1672.6 1256.18,-1662.23 1251.4,-1671.68 "
+         points="1256.18,-1662.23 1251.4,-1671.68 1258.34,-1672.6 "
          id="polygon138" />
     </g>
     <!-- manipulation/getAll -->
@@ -477,7 +477,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1258.97,-1672.61 1256.37,-1662.33 1251.99,-1671.98 "
+         points="1256.37,-1662.33 1251.99,-1671.98 1258.97,-1672.61 "
          id="polygon150" />
     </g>
     <!-- manipulation/buildFragment -->
@@ -511,7 +511,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1254.7,-1615.88 1258.14,-1625.9 1261.7,-1615.92 "
+         points="1258.14,-1625.9 1261.7,-1615.92 1254.7,-1615.88 "
          id="polygon162" />
     </g>
     <!-- callbacks -->
@@ -545,7 +545,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1258.34,-1672.57 1255.96,-1662.25 1251.38,-1671.8 "
+         points="1255.96,-1662.25 1251.38,-1671.8 1258.34,-1672.57 "
          id="polygon174" />
     </g>
     <!-- selector -->
@@ -579,7 +579,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1258.82,-1672.62 1256.28,-1662.34 1251.85,-1671.96 "
+         points="1256.28,-1662.34 1251.85,-1671.96 1258.82,-1672.62 "
          id="polygon186" />
     </g>
     <!-- manipulation -->
@@ -613,7 +613,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1262.07,-1672.24 1258.41,-1662.3 1255.07,-1672.36 "
+         points="1258.41,-1662.3 1255.07,-1672.36 1262.07,-1672.24 "
          id="polygon198" />
     </g>
     <!-- attributes -->
@@ -647,7 +647,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1236.62,-1671.67 1241.23,-1662.14 1231.68,-1666.71 "
+         points="1241.23,-1662.14 1231.68,-1666.71 1236.62,-1671.67 "
          id="polygon210" />
     </g>
     <!-- deprecated/ajax&#45;event&#45;alias -->
@@ -681,7 +681,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1218.24,-1659.09 1226.92,-1653.01 1216.34,-1652.35 "
+         points="1226.92,-1653.01 1216.34,-1652.35 1218.24,-1659.09 "
          id="polygon222" />
     </g>
     <!-- deprecated/event -->
@@ -715,7 +715,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1216.57,-1647.5 1226.57,-1644 1216.57,-1640.5 "
+         points="1226.57,-1644 1216.57,-1640.5 1216.57,-1647.5 "
          id="polygon234" />
     </g>
     <!-- ajax/script -->
@@ -749,7 +749,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1216.34,-1635.65 1226.92,-1634.99 1218.24,-1628.91 "
+         points="1226.92,-1634.99 1218.24,-1628.91 1216.34,-1635.65 "
          id="polygon246" />
     </g>
     <!-- ajax/jsonp -->
@@ -783,7 +783,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1231.68,-1621.29 1241.23,-1625.86 1236.62,-1616.33 "
+         points="1241.23,-1625.86 1236.62,-1616.33 1231.68,-1621.29 "
          id="polygon258" />
     </g>
     <!-- ajax/xhr -->
@@ -817,7 +817,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1242.53,-1618.33 1250.04,-1625.79 1248.82,-1615.27 "
+         points="1250.04,-1625.79 1248.82,-1615.27 1242.53,-1618.33 "
          id="polygon270" />
     </g>
     <!-- ajax/load -->
@@ -851,7 +851,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1254.75,-1615.96 1258.17,-1625.99 1261.75,-1616.02 "
+         points="1258.17,-1625.99 1261.75,-1616.02 1254.75,-1615.96 "
          id="polygon282" />
     </g>
     <!-- deferred -->
@@ -885,7 +885,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1258.63,-1672.31 1256.16,-1662.01 1251.67,-1671.6 "
+         points="1256.16,-1662.01 1251.67,-1671.6 1258.63,-1672.31 "
          id="polygon294" />
     </g>
     <!-- offset -->
@@ -919,7 +919,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1249.72,-1672.93 1250.65,-1662.37 1243.34,-1670.05 "
+         points="1250.65,-1662.37 1243.34,-1670.05 1249.72,-1672.93 "
          id="polygon306" />
     </g>
     <!-- data/Data -->
@@ -953,7 +953,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1254.54,-1615.71 1258.03,-1625.71 1261.54,-1615.71 "
+         points="1258.03,-1625.71 1261.54,-1615.71 1254.54,-1615.71 "
          id="polygon318" />
     </g>
     <!-- effects -->
@@ -987,7 +987,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1250.91,-1616.44 1255.71,-1625.88 1257.84,-1615.51 "
+         points="1255.71,-1625.88 1257.84,-1615.51 1250.91,-1616.44 "
          id="polygon330" />
     </g>
     <!-- event -->
@@ -1021,7 +1021,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1253.87,-1672.81 1253.36,-1662.23 1247.16,-1670.82 "
+         points="1253.36,-1662.23 1247.16,-1670.82 1253.87,-1672.81 "
          id="polygon342" />
     </g>
     <!-- serialize -->
@@ -1055,7 +1055,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1251.53,-1616.16 1256.12,-1625.71 1258.49,-1615.38 "
+         points="1256.12,-1625.71 1258.49,-1615.38 1251.53,-1616.16 "
          id="polygon354" />
     </g>
     <!-- data -->
@@ -1089,7 +1089,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1250.07,-1616.54 1255.16,-1625.84 1256.98,-1615.4 "
+         points="1255.16,-1625.84 1256.98,-1615.4 1250.07,-1616.54 "
          id="polygon366" />
     </g>
     <!-- traversing/findFilter -->
@@ -1123,7 +1123,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1254.9,-1672.58 1253.8,-1662.04 1248.09,-1670.97 "
+         points="1253.8,-1662.04 1248.09,-1670.97 1254.9,-1672.58 "
          id="polygon378" />
     </g>
     <!-- css/showHide -->
@@ -1157,7 +1157,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1251.82,-1616.2 1256.3,-1625.8 1258.78,-1615.5 "
+         points="1256.3,-1625.8 1258.78,-1615.5 1251.82,-1616.2 "
          id="polygon390" />
     </g>
     <!-- css/hiddenVisibleSelectors -->
@@ -1191,7 +1191,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1252.75,-1616 1256.91,-1625.75 1259.74,-1615.54 "
+         points="1256.91,-1625.75 1259.74,-1615.54 1252.75,-1616 "
          id="polygon402" />
     </g>
     <!-- css/adjustCSS -->
@@ -1225,7 +1225,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1253.37,-1615.95 1257.31,-1625.79 1260.37,-1615.64 "
+         points="1257.31,-1625.79 1260.37,-1615.64 1253.37,-1615.95 "
          id="polygon414" />
     </g>
     <!-- css/curCSS -->
@@ -1259,7 +1259,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1254.66,-1615.95 1258.11,-1625.97 1261.66,-1615.98 "
+         points="1258.11,-1625.97 1261.66,-1615.98 1254.66,-1615.95 "
          id="polygon426" />
     </g>
     <!-- deprecated -->
@@ -1293,7 +1293,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1253.88,-1615.92 1257.64,-1625.82 1260.88,-1615.74 "
+         points="1257.64,-1625.82 1260.88,-1615.74 1253.88,-1615.92 "
          id="polygon438" />
     </g>
     <!-- selector/uniqueSort -->
@@ -1327,7 +1327,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1254.31,-1615.83 1257.92,-1625.79 1261.31,-1615.75 "
+         points="1257.92,-1625.79 1261.31,-1615.75 1254.31,-1615.83 "
          id="polygon450" />
     </g>
     <!-- selector/escapeSelector -->
@@ -1361,7 +1361,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1254.68,-1615.94 1258.15,-1625.95 1261.68,-1615.96 "
+         points="1258.15,-1625.95 1261.68,-1615.96 1254.68,-1615.94 "
          id="polygon462" />
     </g>
     <!-- queue/delay -->
@@ -1395,7 +1395,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1254.99,-1615.91 1258.35,-1625.96 1261.99,-1616.01 "
+         points="1258.35,-1625.96 1261.99,-1616.01 1254.99,-1615.91 "
          id="polygon474" />
     </g>
     <!-- effects/animatedSelector -->
@@ -1429,7 +1429,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1253,-1616.13 1257.04,-1625.92 1259.99,-1615.74 "
+         points="1257.04,-1625.92 1259.99,-1615.74 1253,-1616.13 "
          id="polygon486" />
     </g>
     <!-- effects/Tween -->
@@ -1463,7 +1463,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1253.22,-1616.06 1257.18,-1625.88 1260.21,-1615.73 "
+         points="1257.18,-1625.88 1260.21,-1615.73 1253.22,-1616.06 "
          id="polygon498" />
     </g>
     <!-- selector/contains -->
@@ -1497,7 +1497,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1254.33,-1615.93 1257.9,-1625.9 1261.33,-1615.88 "
+         points="1257.9,-1625.9 1261.33,-1615.88 1254.33,-1615.93 "
          id="polygon510" />
     </g>
     <!-- dimensions -->
@@ -1531,7 +1531,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1256.88,-1672.55 1255.28,-1662.08 1250,-1671.26 "
+         points="1255.28,-1662.08 1250,-1671.26 1256.88,-1672.55 "
          id="polygon522" />
     </g>
     <!-- exports/global -->
@@ -1565,7 +1565,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1253.47,-1615.88 1257.35,-1625.74 1260.47,-1615.62 "
+         points="1257.35,-1625.74 1260.47,-1615.62 1253.47,-1615.88 "
          id="polygon534" />
     </g>
     <!-- exports/amd -->
@@ -1599,7 +1599,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1253.7,-1615.96 1257.5,-1625.85 1260.7,-1615.75 "
+         points="1257.5,-1625.85 1260.7,-1615.75 1253.7,-1615.96 "
          id="polygon546" />
     </g>
     <!-- ajax -->
@@ -1633,7 +1633,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1258.82,-1672.51 1256.28,-1662.22 1251.85,-1671.85 "
+         points="1256.28,-1662.22 1251.85,-1671.85 1258.82,-1672.51 "
          id="polygon558" />
     </g>
     <!-- jquery -->
@@ -1667,7 +1667,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1260.15,-1672.22 1257.14,-1662.06 1253.16,-1671.88 "
+         points="1257.14,-1662.06 1253.16,-1671.88 1260.15,-1672.22 "
          id="polygon570" />
     </g>
     <!-- attributes/attr -->
@@ -1701,7 +1701,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1258.72,-1672.57 1256.22,-1662.27 1251.76,-1671.88 "
+         points="1256.22,-1662.27 1251.76,-1671.88 1258.72,-1672.57 "
          id="polygon582" />
     </g>
     <!-- attributes/val -->
@@ -1735,7 +1735,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1252.07,-1616.12 1256.64,-1625.68 1259.03,-1615.36 "
+         points="1256.64,-1625.68 1259.03,-1615.36 1252.07,-1616.12 "
          id="polygon594" />
     </g>
     <!-- attributes/classes -->
@@ -1769,7 +1769,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1253.63,-1615.94 1257.45,-1625.82 1260.62,-1615.71 "
+         points="1257.45,-1625.82 1260.62,-1615.71 1253.63,-1615.94 "
          id="polygon606" />
     </g>
     <!-- attributes/prop -->
@@ -1803,7 +1803,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1249.33,-1616.69 1254.84,-1625.74 1256.18,-1615.23 "
+         points="1254.84,-1625.74 1256.18,-1615.23 1249.33,-1616.69 "
          id="polygon618" />
     </g>
     <!-- css -->
@@ -1837,7 +1837,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1259.11,-1672.59 1256.47,-1662.33 1252.14,-1672 "
+         points="1256.47,-1662.33 1252.14,-1672 1259.11,-1672.59 "
          id="polygon630" />
     </g>
     <!-- queue -->
@@ -1871,7 +1871,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1253.59,-1672.82 1252.89,-1662.25 1246.85,-1670.96 "
+         points="1252.89,-1662.25 1246.85,-1670.96 1253.59,-1672.82 "
          id="polygon642" />
     </g>
     <!-- event/trigger -->
@@ -1905,7 +1905,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1254.27,-1672.59 1253.36,-1662.03 1247.49,-1670.85 "
+         points="1253.36,-1662.03 1247.49,-1670.85 1254.27,-1672.59 "
          id="polygon654" />
     </g>
     <!-- core/access&#45;&gt;manipulation -->
@@ -1925,7 +1925,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="946.72,-2212.17 956.84,-2209.05 946.98,-2205.17 "
+         points="956.84,-2209.05 946.98,-2205.17 946.72,-2212.17 "
          id="polygon661" />
     </g>
     <!-- core/access&#45;&gt;offset -->
@@ -1945,7 +1945,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="955.4,-2193.23 965.97,-2193.98 958.17,-2186.8 "
+         points="965.97,-2193.98 958.17,-2186.8 955.4,-2193.23 "
          id="polygon668" />
     </g>
     <!-- core/access&#45;&gt;data -->
@@ -1965,7 +1965,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="948.62,-2193.12 959.18,-2193.95 951.44,-2186.72 "
+         points="959.18,-2193.95 951.44,-2186.72 948.62,-2193.12 "
          id="polygon675" />
     </g>
     <!-- core/access&#45;&gt;dimensions -->
@@ -1985,7 +1985,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="953.41,-2193.19 963.98,-2193.95 956.19,-2186.77 "
+         points="963.98,-2193.95 956.19,-2186.77 953.41,-2193.19 "
          id="polygon682" />
     </g>
     <!-- core/access&#45;&gt;attributes/attr -->
@@ -2005,7 +2005,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="956.77,-2237.29 964.56,-2230.1 953.99,-2230.86 "
+         points="964.56,-2230.1 953.99,-2230.86 956.77,-2237.29 "
          id="polygon689" />
     </g>
     <!-- core/access&#45;&gt;attributes/prop -->
@@ -2025,7 +2025,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="950.73,-2193.2 961.3,-2194 953.53,-2186.79 "
+         points="961.3,-2194 953.53,-2186.79 950.73,-2193.2 "
          id="polygon696" />
     </g>
     <!-- core/access&#45;&gt;css -->
@@ -2045,7 +2045,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="961.08,-2237.18 968.89,-2230.02 958.32,-2230.75 "
+         points="968.89,-2230.02 958.32,-2230.75 961.08,-2237.18 "
          id="polygon703" />
     </g>
     <!-- core/DOMEval -->
@@ -2079,7 +2079,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1449.73,-2902.47 1454.71,-2911.82 1456.65,-2901.41 "
+         points="1454.71,-2911.82 1456.65,-2901.41 1449.73,-2902.47 "
          id="polygon715" />
     </g>
     <!-- core/DOMEval&#45;&gt;manipulation -->
@@ -2099,7 +2099,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1362.1,-2937.11 1371.99,-2933.29 1361.88,-2930.11 "
+         points="1371.99,-2933.29 1361.88,-2930.11 1362.1,-2937.11 "
          id="polygon722" />
     </g>
     <!-- core/init&#45;&gt;wrap -->
@@ -2119,7 +2119,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="671.69,-2071.06 680.25,-2064.81 669.66,-2064.36 "
+         points="680.25,-2064.81 669.66,-2064.36 671.69,-2071.06 "
          id="polygon729" />
     </g>
     <!-- core/init&#45;&gt;traversing -->
@@ -2139,7 +2139,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="717.45,-2077.47 720.31,-2067.26 711.71,-2073.46 "
+         points="720.31,-2067.26 711.71,-2073.46 717.45,-2077.47 "
          id="polygon736" />
     </g>
     <!-- core/init&#45;&gt;manipulation -->
@@ -2159,7 +2159,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="703.2,-2075.82 709.11,-2067.03 699.01,-2070.22 "
+         points="709.11,-2067.03 699.01,-2070.22 703.2,-2075.82 "
          id="polygon743" />
     </g>
     <!-- core/init&#45;&gt;offset -->
@@ -2179,7 +2179,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="669.77,-2040.53 680.25,-2038.97 671.09,-2033.65 "
+         points="680.25,-2038.97 671.09,-2033.65 669.77,-2040.53 "
          id="polygon750" />
     </g>
     <!-- core/init&#45;&gt;effects -->
@@ -2199,7 +2199,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="698.13,-2027.4 708.13,-2030.92 702.51,-2021.94 "
+         points="708.13,-2030.92 702.51,-2021.94 698.13,-2027.4 "
          id="polygon757" />
     </g>
     <!-- core/init&#45;&gt;event -->
@@ -2219,7 +2219,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="670.27,-2052.96 680.25,-2049.39 670.22,-2045.96 "
+         points="680.25,-2049.39 670.22,-2045.96 670.27,-2052.96 "
          id="polygon764" />
     </g>
     <!-- core/init&#45;&gt;serialize -->
@@ -2239,7 +2239,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="696.21,-2027.63 706.29,-2030.89 700.45,-2022.06 "
+         points="706.29,-2030.89 700.45,-2022.06 696.21,-2027.63 "
          id="polygon771" />
     </g>
     <!-- core/init&#45;&gt;ajax -->
@@ -2259,7 +2259,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="719.97,-2077.43 721.9,-2067.01 713.9,-2073.95 "
+         points="721.9,-2067.01 713.9,-2073.95 719.97,-2077.43 "
          id="polygon778" />
     </g>
     <!-- core/init&#45;&gt;attributes/val -->
@@ -2279,7 +2279,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="701.85,-2026.95 711.69,-2030.87 706.44,-2021.67 "
+         points="711.69,-2030.87 706.44,-2021.67 701.85,-2026.95 "
          id="polygon785" />
     </g>
     <!-- core/init&#45;&gt;attributes/classes -->
@@ -2299,7 +2299,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="695.25,-2027.87 705.38,-2031 699.41,-2022.24 "
+         points="705.38,-2031 699.41,-2022.24 695.25,-2027.87 "
          id="polygon792" />
     </g>
     <!-- core/init&#45;&gt;css -->
@@ -2319,7 +2319,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="721.88,-2077.63 723.26,-2067.13 715.63,-2074.48 "
+         points="723.26,-2067.13 715.63,-2074.48 721.88,-2077.63 "
          id="polygon799" />
     </g>
     <!-- core/isArrayLike -->
@@ -2353,7 +2353,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1457.55,-46.61 1455.28,-36.26 1450.6,-45.77 "
+         points="1455.28,-36.26 1450.6,-45.77 1457.55,-46.61 "
          id="polygon811" />
     </g>
     <!-- core/isArrayLike&#45;&gt;manipulation/buildFragment -->
@@ -2373,7 +2373,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1351.17,-15.53 1361.29,-12.38 1351.42,-8.53 "
+         points="1361.29,-12.38 1351.42,-8.53 1351.17,-15.53 "
          id="polygon818" />
     </g>
     <!-- core/isAttached&#45;&gt;manipulation/buildFragment -->
@@ -2393,7 +2393,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="677.78,-338.37 688.36,-338.92 680.43,-331.89 "
+         points="688.36,-338.92 680.43,-331.89 677.78,-338.37 "
          id="polygon825" />
     </g>
     <!-- core/isAttached&#45;&gt;manipulation -->
@@ -2413,7 +2413,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="718.89,-385.51 721.08,-375.14 712.9,-381.88 "
+         points="721.08,-375.14 712.9,-381.88 718.89,-385.51 "
          id="polygon832" />
     </g>
     <!-- core/isAttached&#45;&gt;css/curCSS -->
@@ -2433,7 +2433,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="630.81,-349.64 641.13,-347.22 631.56,-342.68 "
+         points="641.13,-347.22 631.56,-342.68 630.81,-349.64 "
          id="polygon839" />
     </g>
     <!-- core/parseHTML&#45;&gt;ajax/load -->
@@ -2453,7 +2453,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="207.94,-2512.36 212.34,-2522 214.91,-2511.72 "
+         points="212.34,-2522 214.91,-2511.72 207.94,-2512.36 "
          id="polygon846" />
     </g>
     <!-- core/parseHTML&#45;&gt;jquery -->
@@ -2473,7 +2473,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="195.22,-2567.93 198.95,-2558.01 189.85,-2563.44 "
+         points="198.95,-2558.01 189.85,-2563.44 195.22,-2567.93 "
          id="polygon853" />
     </g>
     <!-- core/parseXML&#45;&gt;ajax -->
@@ -2493,7 +2493,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="687.98,-2778.31 698.45,-2779.91 691.26,-2772.12 "
+         points="698.45,-2779.91 691.26,-2772.12 687.98,-2778.31 "
          id="polygon860" />
     </g>
     <!-- core/parseXML&#45;&gt;jquery -->
@@ -2513,7 +2513,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="632.58,-2794.14 642.81,-2791.38 633.09,-2787.16 "
+         points="642.81,-2791.38 633.09,-2787.16 632.58,-2794.14 "
          id="polygon867" />
     </g>
     <!-- core/ready&#45;&gt;jquery -->
@@ -2533,7 +2533,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="657.99,-2712.14 667.76,-2708.03 657.56,-2705.15 "
+         points="667.76,-2708.03 657.56,-2705.15 657.99,-2712.14 "
          id="polygon874" />
     </g>
     <!-- core/ready&#45;&gt;css -->
@@ -2553,7 +2553,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="694.16,-2683.09 704.35,-2685.99 698.19,-2677.37 "
+         points="704.35,-2685.99 698.19,-2677.37 694.16,-2683.09 "
          id="polygon881" />
     </g>
     <!-- core/readyException&#45;&gt;core/ready -->
@@ -2573,7 +2573,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="939.75,-2647.84 948.59,-2642 938.04,-2641.05 "
+         points="948.59,-2642 938.04,-2641.05 939.75,-2647.84 "
          id="polygon888" />
     </g>
     <!-- core/stripAndCollapse -->
@@ -2607,7 +2607,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="596.87,-663.5 606.87,-660 596.87,-656.5 "
+         points="606.87,-660 596.87,-656.5 596.87,-663.5 "
          id="polygon900" />
     </g>
     <!-- core/stripAndCollapse&#45;&gt;attributes/val -->
@@ -2627,7 +2627,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="729.2,-688.62 728.12,-678.08 722.4,-687 "
+         points="728.12,-678.08 722.4,-687 729.2,-688.62 "
          id="polygon907" />
     </g>
     <!-- core/stripAndCollapse&#45;&gt;attributes/classes -->
@@ -2647,7 +2647,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="616.9,-683.17 626.17,-678.05 615.73,-676.27 "
+         points="626.17,-678.05 615.73,-676.27 616.9,-683.17 "
          id="polygon914" />
     </g>
     <!-- core/toType -->
@@ -2681,7 +2681,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1710.29,-1310.2 1706.96,-1300.14 1703.29,-1310.08 "
+         points="1706.96,-1300.14 1703.29,-1310.08 1710.29,-1310.2 "
          id="polygon926" />
     </g>
     <!-- core/toType&#45;&gt;core/isArrayLike -->
@@ -2701,7 +2701,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1701.9,-1254.04 1705.97,-1263.82 1708.89,-1253.63 "
+         points="1705.97,-1263.82 1708.89,-1253.63 1701.9,-1254.04 "
          id="polygon933" />
     </g>
     <!-- core/toType&#45;&gt;manipulation/buildFragment -->
@@ -2721,7 +2721,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1703.2,-1253.68 1706.89,-1263.62 1710.2,-1253.56 "
+         points="1706.89,-1263.62 1710.2,-1253.56 1703.2,-1253.68 "
          id="polygon940" />
     </g>
     <!-- core/toType&#45;&gt;callbacks -->
@@ -2741,7 +2741,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1707,-1310.43 1704.79,-1300.06 1700.05,-1309.54 "
+         points="1704.79,-1300.06 1700.05,-1309.54 1707,-1310.43 "
          id="polygon947" />
     </g>
     <!-- core/toType&#45;&gt;serialize -->
@@ -2761,7 +2761,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1693.05,-1255.88 1700.02,-1263.86 1699.55,-1253.27 "
+         points="1700.02,-1263.86 1699.55,-1253.27 1693.05,-1255.88 "
          id="polygon954" />
     </g>
     <!-- core/nodeName -->
@@ -2795,7 +2795,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="658.77,-2328.18 669.3,-2327.08 660.38,-2321.37 "
+         points="669.3,-2327.08 660.38,-2321.37 658.77,-2328.18 "
          id="polygon966" />
     </g>
     <!-- core/nodeName&#45;&gt;manipulation/getAll -->
@@ -2815,7 +2815,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="659.99,-2357.32 669.3,-2352.26 658.87,-2350.41 "
+         points="669.3,-2352.26 658.87,-2350.41 659.99,-2357.32 "
          id="polygon973" />
     </g>
     <!-- core/nodeName&#45;&gt;selector -->
@@ -2835,7 +2835,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="659.18,-2342.8 669.3,-2339.67 659.44,-2335.8 "
+         points="669.3,-2339.67 659.44,-2335.8 659.18,-2342.8 "
          id="polygon980" />
     </g>
     <!-- core/nodeName&#45;&gt;manipulation -->
@@ -2855,7 +2855,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="689.19,-2322.12 699.64,-2323.9 692.58,-2315.99 "
+         points="699.64,-2323.9 692.58,-2315.99 689.19,-2322.12 "
          id="polygon987" />
     </g>
     <!-- core/nodeName&#45;&gt;event -->
@@ -2875,7 +2875,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="716.85,-2316.3 724.31,-2323.82 723.17,-2313.29 "
+         points="724.31,-2323.82 723.17,-2313.29 716.85,-2316.3 "
          id="polygon994" />
     </g>
     <!-- core/nodeName&#45;&gt;attributes/attr -->
@@ -2895,7 +2895,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="709.58,-2369.7 714.38,-2360.26 704.74,-2364.65 "
+         points="714.38,-2360.26 704.74,-2364.65 709.58,-2369.7 "
          id="polygon1001" />
     </g>
     <!-- core/nodeName&#45;&gt;attributes/val -->
@@ -2915,7 +2915,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="715.42,-2316.64 723.1,-2323.94 721.64,-2313.44 "
+         points="723.1,-2323.94 721.64,-2313.44 715.42,-2316.64 "
          id="polygon1008" />
     </g>
     <!-- core/nodeName&#45;&gt;css -->
@@ -2935,7 +2935,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="688.83,-2367.53 696.33,-2360.05 685.8,-2361.22 "
+         points="696.33,-2360.05 685.8,-2361.22 688.83,-2367.53 "
          id="polygon1015" />
     </g>
     <!-- manipulation/buildFragment&#45;&gt;core/parseHTML -->
@@ -2955,7 +2955,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="389.56,-271.6 396.95,-264.01 386.44,-265.33 "
+         points="396.95,-264.01 386.44,-265.33 389.56,-271.6 "
          id="polygon1022" />
     </g>
     <!-- var/arr -->
@@ -2989,7 +2989,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1414.81,-1859.57 1425.24,-1857.73 1415.94,-1852.66 "
+         points="1425.24,-1857.73 1415.94,-1852.66 1414.81,-1859.57 "
          id="polygon1034" />
     </g>
     <!-- var/getProto -->
@@ -3023,7 +3023,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1394.25,-1799.07 1404.82,-1798.41 1396.14,-1792.33 "
+         points="1404.82,-1798.41 1396.14,-1792.33 1394.25,-1799.07 "
          id="polygon1046" />
     </g>
     <!-- var/slice -->
@@ -3057,7 +3057,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1409.11,-1746.61 1419.65,-1745.5 1410.72,-1739.8 "
+         points="1419.65,-1745.5 1410.72,-1739.8 1409.11,-1746.61 "
          id="polygon1058" />
     </g>
     <!-- var/flat -->
@@ -3091,7 +3091,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1413.87,-1689.7 1424.44,-1688.96 1415.72,-1682.95 "
+         points="1424.44,-1688.96 1415.72,-1682.95 1413.87,-1689.7 "
          id="polygon1070" />
     </g>
     <!-- var/push -->
@@ -3125,7 +3125,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1408.95,-1647.5 1418.95,-1644 1408.95,-1640.5 "
+         points="1418.95,-1644 1408.95,-1640.5 1408.95,-1647.5 "
          id="polygon1082" />
     </g>
     <!-- var/indexOf -->
@@ -3159,7 +3159,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1399.7,-1609.43 1408.43,-1603.42 1397.86,-1602.68 "
+         points="1408.43,-1603.42 1397.86,-1602.68 1399.7,-1609.43 "
          id="polygon1094" />
     </g>
     <!-- var/class2type -->
@@ -3193,7 +3193,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1898.13,-1690.74 1902.68,-1681.17 1893.16,-1685.81 "
+         points="1902.68,-1681.17 1893.16,-1685.81 1898.13,-1690.74 "
          id="polygon1106" />
     </g>
     <!-- var/class2type&#45;&gt;core/toType -->
@@ -3213,7 +3213,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1902.06,-1637.83 1909.96,-1644.88 1908.18,-1634.44 "
+         points="1909.96,-1644.88 1908.18,-1634.44 1902.06,-1637.83 "
          id="polygon1113" />
     </g>
     <!-- var/toString -->
@@ -3247,7 +3247,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1859.06,-1311.26 1868.89,-1307.3 1858.74,-1304.27 "
+         points="1868.89,-1307.3 1858.74,-1304.27 1859.06,-1311.26 "
          id="polygon1125" />
     </g>
     <!-- var/toString&#45;&gt;core/toType -->
@@ -3267,7 +3267,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1858.6,-1301.83 1868.92,-1299.43 1859.36,-1294.87 "
+         points="1868.92,-1299.43 1859.36,-1294.87 1858.6,-1301.83 "
          id="polygon1132" />
     </g>
     <!-- var/hasOwn -->
@@ -3301,7 +3301,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1399.16,-1551.31 1407.89,-1545.31 1397.32,-1544.56 "
+         points="1407.89,-1545.31 1397.32,-1544.56 1399.16,-1551.31 "
          id="polygon1144" />
     </g>
     <!-- var/fnToString -->
@@ -3335,7 +3335,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1389.45,-1497.88 1397.9,-1491.48 1387.31,-1491.21 "
+         points="1397.9,-1491.48 1387.31,-1491.21 1389.45,-1497.88 "
          id="polygon1156" />
     </g>
     <!-- var/ObjectFunctionString -->
@@ -3369,7 +3369,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1365.71,-1454.36 1372.43,-1446.17 1362.07,-1448.38 "
+         points="1372.43,-1446.17 1362.07,-1448.38 1365.71,-1454.36 "
          id="polygon1168" />
     </g>
     <!-- var/support -->
@@ -3403,7 +3403,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1399.53,-1384.27 1408.39,-1378.47 1397.84,-1377.48 "
+         points="1408.39,-1378.47 1397.84,-1377.48 1399.53,-1384.27 "
          id="polygon1180" />
     </g>
     <!-- deferred&#45;&gt;core/ready -->
@@ -3423,7 +3423,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="978.19,-2717.52 988.33,-2714.43 978.48,-2710.52 "
+         points="988.33,-2714.43 978.48,-2710.52 978.19,-2717.52 "
          id="polygon1187" />
     </g>
     <!-- core/camelCase -->
@@ -3457,7 +3457,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1184.98,-165.5 1194.98,-162 1184.98,-158.5 "
+         points="1194.98,-162 1184.98,-158.5 1184.98,-165.5 "
          id="polygon1199" />
     </g>
     <!-- core/camelCase&#45;&gt;data -->
@@ -3477,7 +3477,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1261.89,-190.18 1258.42,-180.17 1254.89,-190.16 "
+         points="1258.42,-180.17 1254.89,-190.16 1261.89,-190.18 "
          id="polygon1206" />
     </g>
     <!-- css/cssCamelCase -->
@@ -3511,7 +3511,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1184.21,-144.95 1194.77,-144.13 1186,-138.19 "
+         points="1194.77,-144.13 1186,-138.19 1184.21,-144.95 "
          id="polygon1218" />
     </g>
     <!-- var/documentElement -->
@@ -3545,7 +3545,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="929.4,-378.54 939.68,-375.97 930.05,-371.57 "
+         points="939.68,-375.97 930.05,-371.57 929.4,-378.54 "
          id="polygon1230" />
     </g>
     <!-- var/document -->
@@ -3579,7 +3579,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1639.75,-2967.06 1650.22,-2965.45 1641.03,-2960.18 "
+         points="1650.22,-2965.45 1641.03,-2960.18 1639.75,-2967.06 "
          id="polygon1242" />
     </g>
     <!-- var/document&#45;&gt;core/init -->
@@ -3599,7 +3599,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1691.87,-2950.18 1699.16,-2957.87 1698.26,-2947.32 "
+         points="1699.16,-2957.87 1698.26,-2947.32 1691.87,-2950.18 "
          id="polygon1249" />
     </g>
     <!-- var/document&#45;&gt;core/parseHTML -->
@@ -3619,7 +3619,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1641.58,-2994.5 1650.5,-2988.77 1639.96,-2987.69 "
+         points="1650.5,-2988.77 1639.96,-2987.69 1641.58,-2994.5 "
          id="polygon1256" />
     </g>
     <!-- var/document&#45;&gt;core/ready -->
@@ -3639,7 +3639,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1640.67,-2986.76 1650.25,-2982.23 1639.94,-2979.8 "
+         points="1650.25,-2982.23 1639.94,-2979.8 1640.67,-2986.76 "
          id="polygon1263" />
     </g>
     <!-- var/document&#45;&gt;core/ready&#45;no&#45;deferred -->
@@ -3659,7 +3659,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1640.32,-2979.5 1650.32,-2976 1640.32,-2972.5 "
+         points="1650.32,-2976 1640.32,-2972.5 1640.32,-2979.5 "
          id="polygon1270" />
     </g>
     <!-- core/var/rsingleTag -->
@@ -3693,7 +3693,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="939.39,-2296.98 949.96,-2296.26 941.25,-2290.23 "
+         points="949.96,-2296.26 941.25,-2290.23 939.39,-2296.98 "
          id="polygon1282" />
     </g>
     <!-- core/var/rsingleTag&#45;&gt;core/parseHTML -->
@@ -3713,7 +3713,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1012.56,-2332.54 1015.16,-2322.27 1006.72,-2328.67 "
+         points="1015.16,-2322.27 1006.72,-2328.67 1012.56,-2332.54 "
          id="polygon1289" />
     </g>
     <!-- core/isObviousHtml -->
@@ -3747,7 +3747,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="982.69,-1378.04 989.61,-1370.02 979.19,-1371.98 "
+         points="989.61,-1370.02 979.19,-1371.98 982.69,-1378.04 "
          id="polygon1301" />
     </g>
     <!-- core/isObviousHtml&#45;&gt;core/parseHTML -->
@@ -3767,7 +3767,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="938.35,-1356.09 948.21,-1352.21 938.09,-1349.09 "
+         points="948.21,-1352.21 938.09,-1349.09 938.35,-1356.09 "
          id="polygon1308" />
     </g>
     <!-- var/rnothtmlwhite -->
@@ -3801,7 +3801,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="945.14,-492.73 953.95,-486.84 943.39,-485.95 "
+         points="953.95,-486.84 943.39,-485.95 945.14,-492.73 "
          id="polygon1320" />
     </g>
     <!-- var/isWindow -->
@@ -3835,7 +3835,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1641.46,-21.5 1651.46,-18 1641.46,-14.5 "
+         points="1651.46,-18 1641.46,-14.5 1641.46,-21.5 "
          id="polygon1332" />
     </g>
     <!-- traversing/findFilter&#45;&gt;core/init -->
@@ -3855,7 +3855,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="936.46,-2026.94 945.94,-2022.21 935.58,-2019.99 "
+         points="945.94,-2022.21 935.58,-2019.99 936.46,-2026.94 "
          id="polygon1339" />
     </g>
     <!-- traversing/core -->
@@ -3903,7 +3903,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1848.36,-3069.7 1857.83,-3064.95 1847.47,-3062.75 "
+         points="1857.83,-3064.95 1847.47,-3062.75 1848.36,-3069.7 "
          id="polygon1356" />
     </g>
     <!-- traversing/var/dir -->
@@ -3937,7 +3937,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1847.47,-3051.25 1857.83,-3049.05 1848.36,-3044.3 "
+         points="1857.83,-3049.05 1848.36,-3044.3 1847.47,-3051.25 "
          id="polygon1368" />
     </g>
     <!-- css/core -->
@@ -3985,7 +3985,7 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="1873.73,-3141.5 1883.73,-3138 1873.73,-3134.5 "
+         points="1883.73,-3138 1873.73,-3134.5 1873.73,-3141.5 "
          id="polygon1385" />
     </g>
     <!-- selector/contains&#45;&gt;core/isAttached -->
@@ -4005,34 +4005,34 @@
          fill-opacity="0.8"
          stroke="#aaaaaa"
          stroke-opacity="0.8"
-         points="948.77,-340.7 958.41,-336.3 948.13,-333.73 "
+         points="958.41,-336.3 948.13,-333.73 948.77,-340.7 "
          id="polygon1392" />
     </g>
   </g>
   <rect
-     style="opacity:0.86;fill:#f2f2f2;stroke:#00ffff;stroke-width:1.24591;stroke-miterlimit:4;stroke-dasharray:3.73775, 1.24591;stroke-dashoffset:0;stroke-opacity:1"
+     style="opacity:1;fill:#f2f2f2;stroke:none;stroke-width:1.47472;stroke-miterlimit:4;stroke-dasharray:4.42419, 1.47472;stroke-dashoffset:0;stroke-opacity:0"
      id="rect7254"
-     width="1221.5723"
-     height="51.54565"
-     x="253.1907"
-     y="286.51471"
+     width="1445.9159"
+     height="61.012093"
+     x="146.61412"
+     y="133.12662"
      inkscape:export-filename="/home/disy/Dokumente/depgrapher/example/jquery-core.png"
      inkscape:export-xdpi="33.869999"
      inkscape:export-ydpi="33.869999" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:41.2846px;font-family:sans-serif;opacity:0.86;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.03211"
-     x="262.62915"
-     y="321.78357"
+     style="font-style:normal;font-weight:normal;font-size:48.8666px;font-family:sans-serif;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.22165"
+     x="157.78593"
+     y="177.87268"
      id="text3362"
      inkscape:export-filename="/home/disy/Dokumente/depgrapher/example/jquery-core.png"
      inkscape:export-xdpi="33.869999"
      inkscape:export-ydpi="33.869999"><tspan
        sodipodi:role="line"
        id="tspan3360"
-       style="stroke-width:1.03211"
-       x="262.62915"
-       y="321.78357">github.com/jquery/jquery: <tspan
-   style="font-size:24.7708px;fill:#666666;stroke-width:1.03211"
+       style="stroke-width:1.22165"
+       x="157.78593"
+       y="177.87268">github.com/jquery/jquery: <tspan
+   style="font-size:29.3201px;fill:#666666;stroke-width:1.22165"
    id="tspan5748">depgrapher --sed 's,\.\./,,g;s,\./,,g;s,\.js,,g' --grep core</tspan></tspan></text>
 </svg>
