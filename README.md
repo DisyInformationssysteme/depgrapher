@@ -75,6 +75,6 @@ Licensed under APL2, see COPYING
 * Check/Update NEWS
 * Increase version in configure.ac (see semver.org)
 * Commit  
-  `$ ./bootstrap.sh && make distcheck`
+  `./bootstrap.sh && make distcheck`
 
 
