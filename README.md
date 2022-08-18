@@ -44,7 +44,7 @@ Install requirements on Debian/Ubuntu:
 
 Clone:
 
-    git git@github.com:DisyInformationssysteme/depgrapher.git
+    git clone git@github.com:DisyInformationssysteme/depgrapher.git
 
 Install systemwide:
 
